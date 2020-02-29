@@ -3,19 +3,18 @@ window.config = {
   routerBasename: '/',
   whiteLabelling: {},
   extensions: [],
-  showStudyList: true,
+  showStudyList: false,
   filterQueryParam: false,
   servers: {
     dicomWeb: [
       {
-        name: 'DCM4CHEE',
-        wadoUriRoot: 'https://server.dcmjs.org/dcm4chee-arc/aets/DCM4CHEE/wado',
-        qidoRoot: 'https://server.dcmjs.org/dcm4chee-arc/aets/DCM4CHEE/rs',
-        wadoRoot: 'https://server.dcmjs.org/dcm4chee-arc/aets/DCM4CHEE/rs',
-        qidoSupportsIncludeField: true,
+        name: 'Orthanc',
+        wadoUriRoot: '/pacs/wado',
+        qidoRoot: '/pacs/dicom-web',
+        wadoRoot: '/pacs/dicom-web',
+        qidoSupportsIncludeField: false,
         imageRendering: 'wadors',
-        thumbnailRendering: 'wadors',
-        enableStudyLazyLoad: true,
+        thumbnailRendering: 'wadors'
       },
     ],
   },
@@ -117,4 +116,25 @@ window.config = {
     },
   ],
   cornerstoneExtensionConfig: {},
+  whiteLabelling : {
+  logoComponent: RadicalImagingLogo(),
+}
+};
+
+
+function RadicalImagingLogo() {
+  return React.createElement(
+    'a',
+    {
+      target: '_blank',
+      rel: 'noopener noreferrer',
+      className: 'header-brand',
+      href: 'http://radicalimaging.com',
+    },
+    React.createElement('h5', {}, 'RADICAL IMAGING')
+  );
+}
+
+props.whiteLabelling = {
+  logoComponent: RadicalImagingLogo(),
 };
