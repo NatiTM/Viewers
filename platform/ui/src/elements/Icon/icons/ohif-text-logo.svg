@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="53.427635mm"
-   height="6.7582197mm"
-   viewBox="0 0 53.427635 6.7582196"
+   width="41.624016mm"
+   height="6.1924696mm"
+   viewBox="0 0 41.624016 6.1924695"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="10.288682"
-     inkscape:cx="144.92052"
-     inkscape:cy="27.211546"
+     inkscape:cx="144.43455"
+     inkscape:cy="29.932981"
      inkscape:document-units="mm"
      inkscape:current-layer="svg8"
      showgrid="false"
@@ -55,14 +55,14 @@
   </metadata>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:11.08059978px;line-height:862.74981689;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.277015"
-     x="-0.57619119"
-     y="8.1664019"
+     style="font-style:normal;font-weight:normal;font-size:9.36198807px;line-height:862.74981689;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.23404966"
+     x="-0.48682338"
+     y="6.899785"
      id="text12"
-     transform="scale(1.2395178,0.80676536)"><tspan
+     transform="scale(1.1429467,0.87493143)"><tspan
        sodipodi:role="line"
        id="tspan10"
-       x="-0.57619119"
-       y="8.1664019"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;line-height:862.74981689;font-family:'TeX Gyre Heros Cn';-inkscape-font-specification:'TeX Gyre Heros Cn Bold Condensed';fill:#f2f2f2;stroke-width:0.277015">IntelliCare</tspan></text>
+       x="-0.48682338"
+       y="6.899785"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;line-height:987.34997559;font-family:'TeX Gyre Heros Cn';-inkscape-font-specification:'TeX Gyre Heros Cn Bold Condensed';fill:#f2f2f2;stroke-width:0.23404966">IntelliCare</tspan></text>
 </svg>

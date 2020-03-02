@@ -82,7 +82,7 @@ const AboutContent = () => {
           className="btn btn-default"
           target="_blank"
           rel="noopener noreferrer"
-          href="http://ohif.org"
+          href="http://intellicare.com"
         >
           {t('More details')}
         </a>
