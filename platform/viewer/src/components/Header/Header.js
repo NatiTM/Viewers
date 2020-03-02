@@ -29,15 +29,6 @@ function Header(props) {
   useEffect(() => {
     const optionsValue = [
       {
-        title: t('About'),
-        icon: { name: 'info' },
-        onClick: () =>
-          show({
-            content: AboutContent,
-            title: t('OHIF Viewer - About'),
-          }),
-      },
-      {
         title: t('Preferences'),
         icon: {
           name: 'user',
@@ -68,7 +59,6 @@ function Header(props) {
   // ANTD -- Hamburger, Drawer, Menu
   return (
     <>
-      <div className="notification-bar">{t('INVESTIGATIONAL USE ONLY')}</div>
       <div className={`entry-header ${home ? 'header-big' : ''}`}>
         <div className="header-left-box">
           {location && location.studyLink && (
@@ -96,7 +86,6 @@ function Header(props) {
         </div>
 
         <div className="header-menu">
-          <span className="research-use">{t('INVESTIGATIONAL USE ONLY')}</span>
           <Dropdown title={t('Options')} list={options} align="right" />
         </div>
       </div>
