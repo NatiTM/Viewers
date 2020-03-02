@@ -63,7 +63,7 @@ function Header(props) {
 
   const { appConfig = {} } = AppContext;
   const showStudyList =
-    appConfig.showStudyList !== undefined ? appConfig.showStudyList : true;
+    appConfig.showStudyList !== undefined ? appConfig.showStudyList : false;
 
   // ANTD -- Hamburger, Drawer, Menu
   return (
