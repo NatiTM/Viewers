@@ -1,7 +1,6 @@
 window.config = {
   // default: '/'
   routerBasename: '/',
-  whiteLabelling: {},
   extensions: [],
   showStudyList: false,
   filterQueryParam: false,
@@ -14,7 +13,7 @@ window.config = {
         wadoRoot: '/pacs/dicom-web',
         qidoSupportsIncludeField: false,
         imageRendering: 'wadors',
-        thumbnailRendering: 'wadors'
+        thumbnailRendering: 'wadors',
       },
     ],
   },
@@ -116,25 +115,4 @@ window.config = {
     },
   ],
   cornerstoneExtensionConfig: {},
-  whiteLabelling : {
-  logoComponent: RadicalImagingLogo(),
-}
-};
-
-
-function RadicalImagingLogo() {
-  return React.createElement(
-    'a',
-    {
-      target: '_blank',
-      rel: 'noopener noreferrer',
-      className: 'header-brand',
-      href: 'http://radicalimaging.com',
-    },
-    React.createElement('h5', {}, 'RADICAL IMAGING')
-  );
-}
-
-props.whiteLabelling = {
-  logoComponent: RadicalImagingLogo(),
 };
