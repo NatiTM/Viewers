@@ -1,6 +1,6 @@
 window.config = {
   // default: '/'
-  routerBasename: '/',
+  routerBasename: '/PACS/viewImage/',
   extensions: [],
   showStudyList: false,
   filterQueryParam: false,

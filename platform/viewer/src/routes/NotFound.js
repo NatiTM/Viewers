@@ -12,7 +12,7 @@ export default function NotFound({
         <h4>{message}</h4>
         {showGoBackButton && (
           <h5>
-            <Link to={'/hms/'}>Go back to dashboard</Link>
+            <Link to={'/'}>Go back to dashboard</Link>
           </h5>
         )}
       </div>
